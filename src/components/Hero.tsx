@@ -1,4 +1,3 @@
-import Icon from "./../../public/images/Icon.png"
 import Image from 'next/image'
 
 
@@ -24,8 +23,8 @@ const Hero = () => {
             </p>
             <button className="flex items-center justify-center gap-2 w-full md:w-[219px] h-[50px] md:h-[63px] mt-6 md:mt-14 text-base md:text-lg text-white bg-blue-500 hover:bg-blue-600 rounded-lg">
                 Try Whitespace Free
-                <Image src={Icon} alt="Icon" width="15" height="15" />
-            </button>
+                <Image src="/images/icon.png" alt="icon" height="15" width="15" className='m-2' />
+                </button>
         </div>
 
         <div className="w-full h-auto max-w-[551px] min-h-[191px] md:w-[824px] md:h-[420px] gap-[4px] bg-[#C4DEFD]">

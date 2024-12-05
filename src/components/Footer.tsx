@@ -5,7 +5,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 
 
-export default function() {
+export default function Footer() {
   return (
       <div className='w-full max-w-[1920px] h-auto md:h-[350px] bg-[#043873] flex flex-col md:flex-row justify-end items-end px-20 py-10 '>
         <div className='w-full max-w-[1100px] h-auto md:h-[300px]  text-white '>
